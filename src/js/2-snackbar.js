@@ -24,7 +24,7 @@ promiseForm.addEventListener('submit', event => {
           message: `Fulfilled promise in ${delay}ms`,
           backgroundColor: '#59a10d',
           messageColor: 'white',
-          iconUrl: '../img/circle.svg',
+          iconUrl: 'circle.svg',
           layout: 2,
           closeOnClick: true,
           close: false,
