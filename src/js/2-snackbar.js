@@ -2,6 +2,7 @@
 
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+import circle from '/src/img/circle.svg';
 
 const promiseForm = document.querySelector('.form');
 
@@ -27,6 +28,7 @@ promiseForm.addEventListener('submit', event => {
           layout: 2,
           closeOnClick: true,
           close: false,
+          iconUrl: circle,
           position: 'topCenter',
           messageSize: 24,
           timeout: 4000,
