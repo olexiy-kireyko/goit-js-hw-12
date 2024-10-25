@@ -28,13 +28,12 @@ const options = {
         message: '❌  Please choose a date in the future',
         backgroundColor: 'red',
         messageColor: 'white',
-        // iconUrl: '/img/octagon.svg',
         layout: 2,
         closeOnClick: true,
         close: false,
         position: 'topCenter',
         messageSize: 24,
-        timeout: 400000,
+        timeout: 4000,
       });
       startBtn.disabled = true;
     } else {
