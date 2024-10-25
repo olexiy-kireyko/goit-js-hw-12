@@ -34,7 +34,7 @@ const options = {
         close: false,
         position: 'topCenter',
         messageSize: 24,
-        timeout: 40000,
+        timeout: 400000,
       });
       startBtn.disabled = true;
     } else {
