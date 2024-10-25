@@ -2,7 +2,7 @@
 
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
-import circle from '/src/img/circle.svg';
+import circle from '/img/circle.svg';
 
 const promiseForm = document.querySelector('.form');
 
