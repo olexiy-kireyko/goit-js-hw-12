@@ -21,10 +21,10 @@ promiseForm.addEventListener('submit', event => {
     .then(delay => {
       setTimeout(() => {
         iziToast.show({
-          message: `Fulfilled promise in ${delay}ms`,
+          message: `✅ Fulfilled promise in ${delay}ms`,
           backgroundColor: '#59a10d',
           messageColor: 'white',
-          iconUrl: 'circle.svg',
+          // iconUrl: 'circle.svg',
           layout: 2,
           closeOnClick: true,
           close: false,
@@ -37,10 +37,10 @@ promiseForm.addEventListener('submit', event => {
     .catch(delay => {
       setTimeout(() => {
         iziToast.show({
-          message: `Rejected promise in ${delay}ms`,
+          message: `❌ Rejected promise in ${delay}ms`,
           backgroundColor: '#ef4040',
           messageColor: 'white',
-          iconUrl: '../img/octagon.svg',
+          // iconUrl: '../img/octagon.svg',
           layout: 2,
           closeOnClick: true,
           close: false,

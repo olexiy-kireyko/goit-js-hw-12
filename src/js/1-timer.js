@@ -25,10 +25,10 @@ const options = {
     const currentDate = new Date();
     if (currentDate > selectedDates[0]) {
       iziToast.show({
-        message: 'Please choose a date in the future',
+        message: '❌  Please choose a date in the future',
         backgroundColor: 'red',
         messageColor: 'white',
-        iconUrl: '/img/octagon.svg',
+        // iconUrl: '/img/octagon.svg',
         layout: 2,
         closeOnClick: true,
         close: false,
