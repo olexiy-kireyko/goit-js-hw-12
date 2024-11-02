@@ -68,6 +68,39 @@ a {
   background-color: #6c8cff;
 }
 
+.load-more {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 125px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  display: block;
+  margin: 40px auto;
+}
+
+.load-more:hover {
+  background-color: #6c8cff;
+}
+
+.hide {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -126,7 +159,7 @@ a {
   border-radius: 50%;
   display: inline-block;
   position: relative;
-  top: 100px;
+  top: 30px;
   left: calc(50% - 24px);
   z-index: 10;
   box-shadow: rgba(224, 123, 123, 0.56) 0px 22px 70px 4px;

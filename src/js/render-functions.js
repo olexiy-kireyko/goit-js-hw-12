@@ -27,5 +27,5 @@ export function renderPixabayImgList(images, searchList) {
       }
     )
     .join('');
-  searchList.innerHTML = imagesList;
+  searchList.insertAdjacentHTML('beforeend', imagesList);
 }
