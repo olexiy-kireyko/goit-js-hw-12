@@ -5,7 +5,7 @@ import axios from 'axios';
 export let lastPageNumber;
 
 export async function getPixabayImages(value, pageNumber) {
-  axios.defaults.baseURL = 'https://pixabay.com';
+//  axios.defaults.baseURL = 'https://pixabay.com';
 
   const searchParams = {
     key: '46785976-efe48924e46a3ec0e24bd3bdc',
@@ -17,7 +17,7 @@ export async function getPixabayImages(value, pageNumber) {
     per_page: 15,
   };
 
-  const images = await axios.get('/api', { params: searchParams });
+  const images = await axios.get('https://pixabay.com/api', { params: searchParams });
 
   if (images.data.total === 0) {
     throw new Error(
