@@ -111,6 +111,7 @@ a {
 
 .gallery-item {
   width: 17%;
+  height: 270px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
